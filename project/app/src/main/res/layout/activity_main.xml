@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="207dp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Add New Project"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/tickmark" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Project logo"
+        />
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="103dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/images"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="199dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Add Logo"
+                android:textColor="#6D6D81"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Project name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Ex. Agency Web"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Additional info"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Platform,Type,etc."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Project Description"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Attatchment"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Tags"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint=" Input tag separated with comma"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape"
+        />
+
+
+</LinearLayout>

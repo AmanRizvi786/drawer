@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1ECC9"
+    android:layout_marginLeft="-10dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION FORM"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#237867"
+        android:textColor="@color/white"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Name" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="38dp">
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/white"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:text="Age" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="38dp">
+
+            <Spinner
+                android:id="@+id/spinnerAge"
+                android:layout_width="299dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:background="#ffff"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Email" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="38dp">
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/white"
+                android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:text="City" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="38dp">
+
+            <Spinner
+                android:id="@+id/spinnerCity"
+                android:layout_width="299dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:background="#ffff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:text="State" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="263dp"
+            android:layout_height="38dp">
+
+            <Spinner
+                android:id="@+id/spinnerState"
+                android:layout_width="299dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="20dp"
+                android:background="#ffff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:text="Country" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="254dp"
+            android:layout_height="38dp">
+
+            <Spinner
+                android:id="@+id/spinnerCountry"
+                android:layout_width="299dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:background="#ffff"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#237867"
+                android:text="SUBMIT" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:text="CLEAR"
+                android:backgroundTint="#237867"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

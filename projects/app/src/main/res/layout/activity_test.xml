@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test"
+    android:orientation="vertical"
+    android:padding="25dp"
+   android:background="@drawable/bgcollege"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="AiMit College"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#0A0E4A"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:textColorHint="#00141B"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Your email"
+        android:textColorHint="#00141B"
+        android:textSize="25dp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:hint="Enter Your phone no."
+        android:textColorHint="#00141B"
+        android:textSize="25dp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textPostalAddress"
+        android:hint="Enter Your Address"
+        android:textColorHint="#00141B"
+        android:textSize="25dp" />
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="25dp"
+            android:textColor="#8AD9E3"
+            android:text="submit" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Contact Us"
+        android:textColor="#8AD9E3"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
